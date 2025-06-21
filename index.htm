@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Rivals Stream Overlay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="waiting-screen" class="screen">
+        <div class="background-shape"></div>
+        <div class="content">
+            <div class="logo">
+                <img src="https://via.placeholder.com/150" alt="Your Logo">
+            </div>
+            <h1>MARVEL RIVALS</h1>
+            <p class="subtitle">Stream Starting Soon</p>
+            <div id="countdown" class="countdown">10:00</div>
+        </div>
+    </div>
+
+    <div id="ingame-screen" class="screen" style="display: none;">
+        <div class="header">
+            <div id="latest-event" class="latest-event">
+                Latest Follower: Waiting for new events...
+            </div>
+        </div>
+        <div class="webcam-frame"></div>
+        <div class="chat-container">
+            <ul id="chat-messages"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
